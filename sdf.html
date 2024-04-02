@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>0402</title>
+    <script src="./event.js" defer></script>
+</head>
+<body onload="alert('웹 페이지가 로딩 완료')">
+    <h1>회원가입</h1>
+    <span>아이디 : </span><input id="id"name="mail"><br>
+    <span>비밀 번호 : </span> <input ifd="password" name="password"><br>
+    <span>비밀 번호 재확인 : </span> <input id="passwordRecheck" name="password">
+    <button id="passwordChecking" style="color: red;" onclick=passwordCheck()>비밀 번호 확인</button>
+    <br>
+
+    <input type ="radio" id="male" value="남">남
+    <input type ="radio" id="famale" value="여">여
+    <br>
+    <button type="reset">초기화</button>
+    <button type="submit">확인 후 제출</button>
+</body>
+</html>
